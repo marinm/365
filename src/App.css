@@ -1,0 +1,29 @@
+h1 {
+	color: #333333;
+}
+
+.dot-grid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(16, 1fr);
+	grid-template-rows: auto;
+}
+
+.dot {
+	text-align: center;
+	font-size: 3rem;
+	width: fit-content;
+	line-height: 1rem;
+}
+
+.dot-past {
+	color: mediumseagreen;
+}
+
+.dot-today {
+	color: lime;
+}
+
+.dot-future {
+	color: #333333;
+}
